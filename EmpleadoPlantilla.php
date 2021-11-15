@@ -1,7 +1,4 @@
 <?php
-
-// include "Empleado.php";
-
 class EmpleadoPlantilla extends Empleado
 {
     private $sueldo;
@@ -42,7 +39,6 @@ class EmpleadoPlantilla extends Empleado
 
     function mostrar()
     {
-        return parent::mostrar() . " con el sueldo de $this->sueldo € y las dietas siendo de
-            $this->dietas €.<br>Los ingresos son " . $this->ingresos() . "€.";
+        return parent::mostrar();
     }
 }

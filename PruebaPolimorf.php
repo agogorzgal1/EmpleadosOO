@@ -1,10 +1,7 @@
 <?php
-
-//include "Empleado.php";
-
 class PruebaPolimorf
 {
-    function calcular($empleado)
+    static function calcular(Empleado $empleado)
     {
         return "Los ingresos de " . $empleado->getApellido() . " son " . $empleado->ingresos();
     }
