@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <img src='img\logo.png' width="85" height="70" alt="El logo de Mª Ana Sanz" />
+        <img src='img/logo.jpg' width="85" height="70" alt="El logo de Mª Ana Sanz" />
         <h1>UT3-Actividad5 UML Empleados-Empresa</h1>
     </header>
 
