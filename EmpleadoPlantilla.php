@@ -37,11 +37,12 @@ class EmpleadoPlantilla extends Empleado
     function ingresos()
     {
         $ingresos = intval($this->sueldo) + intval($this->dietas);
-        return "<br>Los ingresos son " . $ingresos . "€.";
+        return $ingresos;
     }
 
     function mostrar()
     {
-        return parent::mostrar() . " con el sueldo de $this->sueldo € y las dietas siendo de $this->dietas €." . $this->ingresos();
+        return parent::mostrar() . " con el sueldo de $this->sueldo € y las dietas siendo de
+            $this->dietas €.<br>Los ingresos son " . $this->ingresos() . "€.";
     }
 }

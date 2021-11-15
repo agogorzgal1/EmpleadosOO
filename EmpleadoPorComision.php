@@ -49,11 +49,12 @@ class EmpleadoPorComision extends Empleado
     function ingresos()
     {
         $ingresos = (intval($this->base) + intval($this->horas)) * intval($this->tarifa);
-        return "<br>Los ingresos son " . $ingresos . "€.";
+        return $ingresos;
     }
 
     function mostrar()
     {
-        return parent::mostrar() . " con la base de $this->base €, la tarifa siendo $this->tarifa € y habiendo trabajado $this->horas horas." . $this->ingresos();
+        return parent::mostrar() . " con la base de $this->base €, la tarifa siendo 
+        $this->tarifa € y habiendo trabajado $this->horas horas.<br>Los ingresos son " . $this->ingresos() . "€.";
     }
 }
