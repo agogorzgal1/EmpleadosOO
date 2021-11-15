@@ -1,9 +1,9 @@
 <?php
-include "Empleado.php";
-include "EmpleadoPlantilla.php";
-include "EmpleadoPorComision.php";
-include "PruebaPolimorf.php";
-include "Empresa.php";
+include "clases/Empleado.php";
+include "clases/EmpleadoPlantilla.php";
+include "clases/EmpleadoPorComision.php";
+include "clases/PruebaPolimorf.php";
+include "clases/Empresa.php";
 
 $emp1 = new EmpleadoPlantilla("Asier", "Gogorza", "2812345678", 1000, 200);
 $emp2 = new EmpleadoPlantilla("Eunate", "Ibarrola", "2812345622", 1200, 300);
