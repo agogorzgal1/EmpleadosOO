@@ -1,4 +1,5 @@
 <?php
+namespace AsierOO;
 class EmpleadoPorComision extends Empleado
 {
     private $horas;

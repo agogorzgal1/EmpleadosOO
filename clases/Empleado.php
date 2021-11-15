@@ -1,4 +1,5 @@
 <?php
+namespace AsierOO;
 abstract class Empleado
 {
     private $nombre;

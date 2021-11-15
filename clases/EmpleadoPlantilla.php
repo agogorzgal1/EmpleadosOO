@@ -1,4 +1,5 @@
 <?php
+namespace AsierOO;
 class EmpleadoPlantilla extends Empleado
 {
     private $sueldo;

@@ -1,5 +1,6 @@
 <?php
 
+use AsierOO\Empleado;
 class Empresa
 {
     private $empresa;
