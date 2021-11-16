@@ -52,6 +52,6 @@ class EmpleadoPorComision extends Empleado
 
     function mostrar()
     {
-        return parent::mostrar();
+        return parent::mostrar() . "<br>Con " . $this->horas . " horas, una tarifa de " . $this->tarifa . "€ y la base de " . $this->base;;
     }
 }

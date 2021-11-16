@@ -19,7 +19,7 @@ class Empresa
     {
         $lista = "";
         foreach ($this->empresa as $empleado) {
-           $lista .= $empleado->mostrar() . "<br>";
+           $lista .= $empleado->mostrar() . "<br><br>";
         }
         return $lista;
     }

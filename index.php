@@ -24,8 +24,8 @@ $emp5 = new EmpleadoPlantilla("Asier", "Gogorza", "2812345678", 1000, 200);
 $emp6 = new EmpleadoPorComision("Eunate", "Ibarrola", "2812345622", 5, 50, 300);
 $prueba = new PruebaPolimorf();
 $resultado .= "<br><br><b>Prueba Polimorfismo:</b><br>";
-$resultado .= $prueba->calcular($emp5) . "<br>";
-$resultado .= $prueba->calcular($emp6);
+$resultado .= $prueba::calcular($emp5) . "<br>";
+$resultado .= $prueba::calcular($emp6);
 
 $emp7 = new EmpleadoPlantilla("Asier", "Gogorza", "2812345678", 1000, 200);
 $emp8 = new EmpleadoPorComision("Eunate", "Ibarrola", "2812345622", 5, 50, 300);

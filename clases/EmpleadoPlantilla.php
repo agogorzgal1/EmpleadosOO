@@ -40,6 +40,6 @@ class EmpleadoPlantilla extends Empleado
 
     function mostrar()
     {
-        return parent::mostrar();
+        return parent::mostrar() . "<br>Con el sueldo " . $this->sueldo . " y las dietas " . $this->dietas;
     }
 }
